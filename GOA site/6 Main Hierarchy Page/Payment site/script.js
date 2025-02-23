@@ -6,21 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
         let surname = document.getElementById("surname").value;
         let card = document.getElementById("card").value;
 
-        if (isNaN(card)) {
-            alert("Must be numbers in card field");
-            event.preventDefault();
-        }
-
-        if (name === "" || surname === "" || card.length < 16) {
+        if (name === "" || surname === "" || isNaN(card) || card === "") {
             alert("All fields are required!");
             event.preventDefault();
         } else {
             // Save information to localStorage
             localStorage.setItem("name", name);
-            localStorage.setItem("gmail", surname);
+            localStorage.setItem("surname", surname);
             localStorage.setItem("card", card);
 
-            alert("Form submitted successfully!\nyou have successfully become student in\nGOAL ORIENTED ACADEMY!");
-        }        
+            alert("Form submitted successfully!\nYou have successfully become a student in\nGOAL ORIENTED ACADEMY!");
+        }
     });
 });
