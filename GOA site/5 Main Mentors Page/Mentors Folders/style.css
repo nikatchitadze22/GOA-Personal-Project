@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+main{
+    animation: fadein 0.75s ease-in;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(15,15,15);
+    width: 650px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: color 0.33s ease;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.facebook-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-main-child-div {
+    background-color: rgb(19,19,19);
+    width: 700px;
+    height: 100px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.facebook-main-child-div img{
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.facebook-main-child-div p {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 150px;
+    color: gray;
+    font-weight: bold;
+    transition: color 0.25s ease;
+}
+
+
+.facebook-main-child-div p:hover {
+    color:whitesmoke ;
+}
+
+.info-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-main-child-div{
+    width: 700px;
+    background-color: rgb(19, 19, 19);
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
