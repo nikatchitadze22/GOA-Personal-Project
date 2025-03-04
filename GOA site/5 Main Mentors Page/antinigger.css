@@ -16,7 +16,97 @@
 body{
     background-color: rgb(12, 12, 12);
     color: white;
+    min-height: 100vh;
 }
+
+.main-main-languages{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+
+.main-main-child-languages{
+    margin-left:35px ;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 400px 400px 400px 400px;
+}
+
+.language{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    background-color: gray;
+    transition: transform 0.20s ease-in;
+}
+
+#sandro{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#data{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#luka{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#lasha{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+
+#levan{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#zuka{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#popxa{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+#nikoloz{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.language:hover{
+    transform: scale(1.02);
+}
+
+#Pythonp {
+    font-size: 25px;
+}
+
+
+#Javascriptp{
+    font-size: 25px;
+}
+
+
+#Cp{
+    font-size: 25px;
+}
+
+#Javap{
+    font-size: 25px;
+}
+
+
 
 main{
     animation: fadein 1s ease-in;
@@ -56,6 +146,14 @@ main{
     color: #29c090;
 }
 
+#h1hover{
+    transition: color 0.3s ease-in-out;
+}
+
+#h1hover:hover{
+    color: #29c090;
+}
+
 
 .mentors-main-div{
     display: flex;
@@ -68,14 +166,16 @@ main{
     background-color: rgb(18,18,18);
     border: 1px solid transparent;
     border-radius: 20px;
-    width: 700px;
+    width: max-content;
 }
+
 
 .mentors-main-child-div-list ul {
     list-style-position: inside;
 }
 
 .mentors-main-child-div-list li a{
+    font-size: large;
     margin-bottom: 5px;
     text-decoration: none;
     color: white;
