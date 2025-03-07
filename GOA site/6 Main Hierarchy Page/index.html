@@ -17,6 +17,7 @@
                     <a href="../4 Main Facebook Page/index.html">Social Media</a>
                     <a href="../5 Main Mentors Page/index.html">GOA Positions</a>
                     <a href="../6 Main Hierarchy Page/index.html">Payment</a>
+                    <img id="moon-icon" width="20px" src="../Moon Icon.png" alt="">
                 </nav>
             </div>
         </div>
@@ -61,5 +62,20 @@
             </div>
         </div>
     </main>
+    <script>const image = document.getElementById('moon-icon');
+        const navbar = document.querySelector('.navbar-header-main');
+        
+        image.addEventListener('click', () => {
+            if (document.body.style.backgroundColor === 'rgb(12, 12, 12)') {
+                document.body.style.backgroundColor = 'white';
+                document.body.style.color = 'black';
+                navbar.style.backgroundColor = 'white';
+            } else {
+                document.body.style.backgroundColor = 'rgb(12, 12, 12)';
+                document.body.style.color = 'white';
+                navbar.style.backgroundColor = 'rgb(12, 12, 12)';
+            }
+        });
+        </script>
 </body>
 </html>
