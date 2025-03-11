@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const itstepMembers = document.getElementById('itstepMembers');
     const bitcampMembers = document.getElementById('bitcampMembers');
     const algouniMembers = document.getElementById('algouniMembers');
-
+    const novatoriMembers = document.getElementById('novatoriMembers');
+    const goaMembers = document.getElementById('goaMembers');
+    
     class Academy {
         constructor(members) {
             this.members = members;
@@ -31,6 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const algouni = new Academy(217);
     algouniMembers.textContent = algouni.Info.text;
     algouniMembers.style.color = algouni.Info.color;
+
+    const novatori = new Academy(172);
+    novatoriMembers.textContent = novatori.Info.text;
+    novatoriMembers.style.color = novatori.Info.color;
+    
+    const goa = new Academy(1206);
+    goaMembers.textContent = goa.Info.text;
+    goaMembers.style.color = goa.Info.color;
 });
 
 

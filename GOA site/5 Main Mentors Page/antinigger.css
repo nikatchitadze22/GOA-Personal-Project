@@ -85,7 +85,7 @@ body{
 }
 
 .language:hover{
-    transform: scale(1.02);
+    transform: scale(1.013);
 }
 
 #Pythonp {
@@ -232,34 +232,62 @@ main{
 }
 
 .main-chart-div div:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .bitcamp-child {
     height: 475px;
-    background-color: rgb(0, 0, 0);
     margin-left: 50px;
 }
 
 .algouni-child {
     height: 500px;
-    background-color: rgb(50, 121, 145);
     margin-left: 60px;
 }
 .itstep-child {
     height: 450px;
-    background-color: rgb(50, 71, 155);
     margin-left: 50px;
 }
 .reeducate-child {
     height: 425px;
-    background-color: rgb(131, 200, 28);
     margin-left: 40px;
 }
 
+.bitlowdiv{
+    height: 432px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    
+}
 
+.alglowdiv{
+    height: 457px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgb(50, 121, 145);
 
+}
 
+.itlowdiv{
+    height: 407px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgb(50, 71, 155);
+
+}
+
+.relowdiv{
+    height: 382px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgb(131, 200, 28);
+
+}
 
 .div {
     background-color: rgb(40,40,40);
